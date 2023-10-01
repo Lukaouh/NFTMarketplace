@@ -16,7 +16,7 @@
 } 
 .txt_text h1{
     color: white;
-    width: 510px;
+    
     font-size: 67px;
     font-weight: 600;
     line-height: 74px;
@@ -27,7 +27,7 @@
 
 .txt_text h6{
 color: white;
-width: 510px;
+
 margin-top: 14px;
 font-size: 24px;
 font-weight: 400;
@@ -39,10 +39,10 @@ font-family: 'Mukta', sans-serif;
 .txt_text{
    
     margin-top: 80px;
-    width: 510px;
+   
 }
 .btn_2 button{
-    width: 220px;
+  
     height: 60px;
     background-color: #A259FF;
     margin-top: 14px; 
@@ -50,31 +50,31 @@ font-family: 'Mukta', sans-serif;
     border-radius: 20px;
 }
 
+
 .txt_img{
     margin-top: 80px;
     
 }
 
 .txt_img img{
-    width: 510px;
+   
     height: 400px;
 }
 
 .img_box{
-    width: 510px;
+    
     height: 100px;
     background-color: rgba(59, 59, 59, 1);
     border-radius: 0 0 20px 20px;
-    gap: 10px;
-    position:absolute;
+    width: 508px;
 }
-.img_box h5{ 
+.row h5{ 
     color: white;
-    margin-left: 20px;
-    margin-top: 20px;
+    margin-left: 10px;
     font-weight: 600;
     font-size: 22px;
-      font-family: 'Nunito Sans';
+    font-family: 'Nunito Sans';
+    margin-top: 14px;
     
     
 
@@ -85,12 +85,18 @@ font-family: 'Mukta', sans-serif;
     color: white;
   
 
+   
+    
+  
+
 }
 
 .img-assest img{
    margin-left: 8px;
    width: 24px;
    height: 24px;
+   
+
 }
 
 .rate h4{
