@@ -1,19 +1,111 @@
 
 
 
-.nav-item button{
-    border-radius: 20px;
-    color: white;
-    width: 150px;
-    height: 50px;
-}
-
 .nav-item a{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
    
 
-.navbar-collapse {
-    display: flex !important; 
-    flex-basis: auto;
-  }
+.navbar-brand {
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+.nav-item a{
+    font-family: 'Teko', sans-serif;
+
+} 
+.txt_text h1{
+    color: white;
+    width: 510px;
+    font-size: 67px;
+    font-weight: 600;
+    line-height: 74px;
+    font-family: 'Noto Sans KR', sans-serif;
+  
+
+} 
+
+.txt_text h6{
+color: white;
+width: 510px;
+margin-top: 14px;
+font-size: 24px;
+font-weight: 400;
+line-height: 36px;
+font-family: 'Mukta', sans-serif;
+
+}
+
+.txt_text{
+   
+    margin-top: 80px;
+    width: 510px;
+}
+.btn_2 button{
+    width: 220px;
+    height: 60px;
+    background-color: #A259FF;
+    margin-top: 14px; 
+    color: white;
+    border-radius: 20px;
+}
+
+.txt_img{
+    margin-top: 80px;
+    
+}
+
+.txt_img img{
+    width: 510px;
+    height: 400px;
+}
+
+.img_box{
+    width: 510px;
+    height: 100px;
+    background-color: rgba(59, 59, 59, 1);
+    border-radius: 0 0 20px 20px;
+    gap: 10px;
+    position:absolute;
+}
+.img_box h5{ 
+    color: white;
+    margin-left: 20px;
+    margin-top: 20px;
+    font-weight: 600;
+    font-size: 22px;
+      font-family: 'Nunito Sans';
+    
+    
+
+
+}
+
+.img_box h6{ 
+    color: white;
+  
+
+}
+
+.img-assest img{
+   margin-left: 8px;
+   width: 24px;
+   height: 24px;
+}
+
+.rate h4{
+    color: white;
+    margin-top: 14px;
+    font-family: 'AR One Sans', sans-serif;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 40px;
+}
+    
+.rate span{
+    color: white;
+    font-family: 'AR One Sans';
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 40px;
+}
