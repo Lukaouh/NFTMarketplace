@@ -115,3 +115,159 @@ font-family: 'Mukta', sans-serif;
     font-size: 20px;
     line-height: 40px;
 }
+
+.trending h1{
+    color: white;
+    margin-top: 80px;
+    font-size: 38px;
+    font-weight: 600;
+    line-height: 48px;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+.trending span{
+    color: white;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 36px;
+    
+
+
+}
+
+.nft_img{
+    height: 250px;
+    width: 250px;
+    border-radius: 20px;
+    margin-top: 60px;
+
+}
+
+.nft_img_1{
+    height: 250px;
+    width: 250px;
+    border-radius: 20px;
+    margin-top: 60px;
+}
+
+.nft_img_2{
+    height: 250px;
+    width: 250px;
+    border-radius: 20px;
+    margin-top: 60px;
+
+}
+.nft_box{
+    width: 250px;
+    height: 100px;
+}
+.nft_box_img{
+    width: 76px;
+    height: 76px;
+    border-radius: 20px;
+    margin-top: 20px;
+
+}
+.box_txt_1{
+    width: 76px;
+    height: 76px;
+    background-color: #A259FF;
+    margin-top: 20px;
+    font-size: 20px;
+    font-family: 'AR One Sans', sans-serif;
+    border-radius: 20px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+   
+}
+.box_txt_2{
+    width: 76px;
+    height: 76px;
+    background-color: #A259FF;
+    margin-top: 20px;
+    font-size: 20px;
+    font-family: 'AR One Sans', sans-serif;
+    border-radius: 20px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+   
+}
+.nft_info{
+    color: white;
+    font-size: 22px;
+    font-weight: 600;
+    font-family: 'Fira Sans', sans-serif;
+
+}
+
+.nft_info_1{
+
+    color: white;
+    font-size: 22px;
+    font-weight: 600;
+    font-family: 'Fira Sans', sans-serif;
+
+}
+
+
+@media (max-width:991px){
+    .nft_img_2{
+        
+            display: none;
+    
+        }
+       
+        .nft_img_1{
+            display: none;
+    
+         }
+         .boxes{
+            display: none;
+
+         }
+         .box_txt_2{
+            display: none;
+
+         }
+         .nft_info_1{
+            display: none;
+
+         }
+
+        .nft_img{
+            width: 500px;
+            height: 450px;
+            margin-top: 30px;
+           
+
+        }
+        .nft_box_img{
+            width: 150px;
+            height: 150px;
+            gap: 100px;
+        }
+
+        .box_txt_1{
+            width: 150px;
+            height: 150px;
+            gap: 100px;
+
+        }
+        .nft_box{
+            width: 500px;
+        }
+
+        
+        .trending h1{
+            margin-top: 50px;
+        }
+    }
+
+
+
