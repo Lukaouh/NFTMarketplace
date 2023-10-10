@@ -94,7 +94,6 @@ font-family: 'Mukta', sans-serif;
    
 
 }
-
 .rate h4{
     color: white;
     margin-top: 14px;
@@ -240,10 +239,29 @@ font-family: 'Mukta', sans-serif;
 
 
 }
+.artist_btn_2{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.artist_btn_2 button{
+    margin-top: 40px;
+    width: 100%;
+    height: 70px;
+    border-radius: 20px;
+    font-weight: 600;
+    font-size: 22px;
+    background-color: #2B2B2B;
+    color: #A259FF;
+    border-color: #A259FF;
+
+}
 .card{
-    width: 220px;
-    
-    border-radius: 50px;
+    width: 100%;
+    height: 170px;
+    border-radius: 20px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -251,8 +269,8 @@ font-family: 'Mukta', sans-serif;
     
 }
 .card img{
-    max-width: 80px;
-    height: 80px;
+    max-width: 70px;
+    height: 70px;
 }
 
 
@@ -262,7 +280,11 @@ font-family: 'Mukta', sans-serif;
     font-weight: 400;
     line-height: 36px;
 }
-
+.card h5{
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
 .card h6{
     display: flex;
     align-items: center;
@@ -277,67 +299,68 @@ font-family: 'Mukta', sans-serif;
 
 }
 
+
 @media (max-width:991px){
-    .nft_box_hiden{
+   
+        .nft_box_hiden{
+            
+                display: none;
         
-            display: none;
+            }
+
+            .nft_box_img{
+                width: 100%;
+                height: 180px;
+                
+            }
+            .nft_img{
+                height: 600px;
+            }
     
-        }
-       
-
-        .nft_img{
-            width: 100%;
-            height: 600px;
-            margin-top: 30px;
-           
-
-        }
-        .nft_box_img{
-            width: 100%;
-            height: 200px;
-            
-        }
-
-        .box_txt_1{
-            width: 100%;
-            height: 200px;
-            
-
-        }
-        .nft_box{
-            width: 100%;
-        }
-
+            .box_txt_1{
+                width: 100%;
+                height: 180px;
+            }
+    
         
-        .trending h1{
-            margin-top: 50px;
-        }
-
-        .txt_img img{
-            width: 100%;
-            height: 330px;
+           
+    
             
+            .trending h1{
+                margin-top: 50px;
+            }
+    
+            .txt_img img{
+                width: 100%;
+                height: 330px;
+                
+            }
+            .img_box h5{
+                gap: 10px;
+            }
+            .box_text{
+                gap: 5px;
+            }
+            .top_artist h1{
+                margin-top: 180px;
+            }
+            .artist_btn button{
+                margin-top: 190px;
+    
+            }
+          
         }
-        .img_box h5{
-            gap: 10px;
-        }
-        .box_text{
-            gap: 5px;
-        }
-        .top_artist h1{
-            margin-top: 180px;
-        }
-        .artist_btn button{
-            margin-top: 190px;
+ 
 
-        }
-      
-    }
-    @media (max-width : 769px){
+ 
+    @media (max-width : 767px){
         .nft_box_img{
             width: 100%;
             height: 180px;
             
+        }
+        .nft_img{
+            height: 450px;
         }
 
         .box_txt_1{
@@ -354,13 +377,33 @@ font-family: 'Mukta', sans-serif;
         }
 
         .card{
-
             width: 100%;
             border-radius: 50px;
+            height: 92px;
+        }
+        .card h5{
+            color: #A259FF;
+        }
+        .card img{
+            margin-top: 5px;
+            max-width: 40px;
+            height: 40px;
+        }
+        .artist_btn{
+            display: none;
 
+        }
+
+        .top_artist{
+            width: 100%;
         }
            
 
+    }
+    @media (min-width: 768px){
+        .artist_btn_2{
+            display: none;
+        }
     }
 
 
@@ -384,6 +427,20 @@ font-family: 'Mukta', sans-serif;
         }
             
 
+
+    }
+
+    @media (max-width : 461px){
+        .nft_box_img{
+            width: 100%;
+            height: 120px;
+            
+        }
+
+        .box_txt_1{
+            width: 100%;
+            height: 120px;
+        }
 
     }
 
