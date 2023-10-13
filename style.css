@@ -298,6 +298,45 @@ font-family: 'Mukta', sans-serif;
     color: white;
 
 }
+.categories h1{
+    color: white;
+    font-size: 38px;
+    line-height: 46px;
+    font-weight: 600;
+    margin-top: 90px;
+    font-family:'Fira Sans', sans-serif;
+    
+}
+
+.bluer {
+    display: flex;
+    margin-top: 40px;
+    width: 100%;
+
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 70px;
+    
+    
+}
+
+.bluer img{
+    width: 100%;
+    height: 250px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    
+    filter: blur(5px);
+    z-index: -1;
+   
+    
+}
+
+
+
 
 
 @media (max-width:991px){
@@ -348,6 +387,9 @@ font-family: 'Mukta', sans-serif;
                 margin-top: 190px;
     
             }
+            .bluer img{
+                height: 200px;
+            }
           
         }
  
@@ -397,8 +439,16 @@ font-family: 'Mukta', sans-serif;
         .top_artist{
             width: 100%;
         }
-           
+        
+        .bluer img{
+            
+            height: 380px;
+        }
 
+        .bluer{
+            
+            background-size: 90px;
+        }
     }
     @media (min-width: 768px){
         .artist_btn_2{
