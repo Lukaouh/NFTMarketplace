@@ -319,6 +319,20 @@ font-family: 'Mukta', sans-serif;
     
     
 }
+.bluer_box{
+    width: 100%;
+    height: 75px;
+    background-color: rgba(59, 59, 59, 1);
+    border-radius:0 0 20px 20px;
+}
+.bluer_box h6{
+    color: white;
+   padding: 25px 25px;
+   font-family: 'AR One Sans', sans-serif;
+
+
+
+}
 
 .bluer img{
     width: 100%;
