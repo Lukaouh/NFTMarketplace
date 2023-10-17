@@ -307,7 +307,15 @@ font-family: 'Mukta', sans-serif;
     font-family:'Fira Sans', sans-serif;
     
 }
+.categories_mob h1{
+    color: white;
+    font-size: 38px;
+    line-height: 46px;
+    font-weight: 600;
+    margin-top: 90px;
+    font-family:'Fira Sans', sans-serif;
 
+}
 .bluer {
     display: flex;
     margin-top: 40px;
@@ -327,7 +335,7 @@ font-family: 'Mukta', sans-serif;
 }
 .bluer_box h6{
     color: white;
-   padding: 25px 25px;
+   padding: 15px 10px;
    font-family: 'AR One Sans', sans-serif;
 
 
@@ -348,7 +356,89 @@ font-family: 'Mukta', sans-serif;
    
     
 }
+.discover h1{
+    color: white;
+    font-size: 38px;
+    line-height: 46px;
+    font-weight: 600;
+    margin-top: 90px;
+    font-family:'Fira Sans', sans-serif;
 
+}
+.discover h6{
+    color: rgb(146, 138, 138);
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 35px;
+
+}
+.discover_btn{
+    display: flex;
+    align-items: end;
+    justify-content: end;
+    
+
+}
+.discover_btn button{
+    width: 150px;
+    height: 50px;
+    border-radius: 20px;
+    font-weight: 600;
+    background-color: #2B2B2B;
+    color: #A259FF;
+    border-color: #A259FF;
+
+}
+.discover_boxes img{
+    width: 100%;
+}
+.dicover_info{
+    width: 100%;
+    height: 176px;
+    background-color: rgba(59, 59, 59, 1);
+    border-radius: 0 0 20px 20px;
+}
+.dicover_info h5{
+    color: white;
+    font-family:'Fira Sans', sans-serif;
+    padding: 10px 15px;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 30px;
+
+}
+.info_box{
+    margin-left: 5px;
+    margin-top: -14px;
+    
+}
+.info_img img{
+    width: 20px;
+    height: 20px;
+}
+.info_txt span{
+    color: white;
+    font-family: 'Unbounded', sans-serif;;
+}
+
+.price h6{
+    margin-top: 20px;
+    font-size: 16px;
+    color: rgb(153, 131, 131);
+    font-family: 'Unbounded', sans-serif;
+}
+.price span{
+    color: white;
+    font-family: 'Unbounded', sans-serif;;
+}
+
+
+.bid{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
 
 
 
@@ -374,10 +464,6 @@ font-family: 'Mukta', sans-serif;
                 width: 100%;
                 height: 180px;
             }
-    
-        
-           
-    
             
             .trending h1{
                 margin-top: 50px;
@@ -456,17 +542,28 @@ font-family: 'Mukta', sans-serif;
         
         .bluer img{
             
-            height: 380px;
+            height: 250px;
         }
 
         .bluer{
             
             background-size: 90px;
         }
+        .categories{
+            display: none;
+
+        }
+        .info_txt span{
+            margin-right:6px ;
+        }
     }
     @media (min-width: 768px){
         .artist_btn_2{
             display: none;
+        }
+        .categories_mob{
+            display: none;
+
         }
     }
 
@@ -490,6 +587,10 @@ font-family: 'Mukta', sans-serif;
             height: 150px;
         }
             
+        .bluer img{
+            
+            height: 250px;
+        }
 
 
     }
@@ -505,6 +606,11 @@ font-family: 'Mukta', sans-serif;
             width: 100%;
             height: 120px;
         }
+        .bluer img{
+            
+            height: 200px;
+        }
+
 
     }
 
