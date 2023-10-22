@@ -323,7 +323,7 @@ font-family: 'Mukta', sans-serif;
 
     background-repeat: no-repeat;
     background-position: center;
-    background-size: 70px;
+   
     
     
 }
@@ -440,29 +440,171 @@ font-family: 'Mukta', sans-serif;
     
 }
 
-
-
-
-@media (max-width:991px){
+.highlight{
    
-        .nft_box_hiden{
-            
-                display: none;
-        
-            }
+    
+    width: 115%;
+    margin-top: 100px;
+    border-radius: 20px;
 
-            .nft_box_img{
+    background-image: url(./img/nft_info.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+    
+  
+}
+
+
+.highlight img{
+    width: 100%;
+    height: auto;
+
+}
+
+
+.highlight_emoji{
+margin-top: 400px;
+margin-left: 100px;
+
+
+
+    
+}
+.highlight_emoji span{
+    color: white;
+    font-size: 16px;
+    line-height: 22px;
+    font-weight: 400;
+}
+
+
+.highlight_emoji img{
+    width: 20px;
+    height: 20px;
+    border-radius: 10px;
+}
+
+.highlight_emoji button{
+    width: 150px;
+    height: 50px;
+    border: none;
+    border-radius: 20px;
+    margin-top: 20px;
+    color: #A259FF;
+    
+}
+.highlight_name{
+    background-color: #2B2B2B;
+    border-radius: 20px;
+    box-shadow: 0 0 0 14px #2B2B2B;
+   
+   
+}
+
+.highlight_emoji h2{
+    margin-top: 20px;
+
+    color: white;
+    width: 100%;
+    font-size: 46px;
+    font-weight: 600;
+    font-family:'Fira Sans', sans-serif;
+    
+   
+    
+}
+.time_box{
+    width: 100%;
+    display: flex;
+    align-items: end;
+    justify-content: end;
+    
+
+}
+.time {
+
+  
+    background-color: rgba(111, 79, 129, 0.5);
+    max-width: 300px;
+    height: 130px;
+    margin-top: 420px;
+    border-radius: 20px;
+    margin-left: 100px;
+  
+    
+}
+
+
+.time_box h5{
+    color: white;
+    font-size: 12px;
+    line-height: 13px;
+    font-weight: 400;
+    font-family: 'Unbounded', sans-serif;
+    margin-left: 10px;
+    margin-top: 14px;
+    
+}
+.watch{
+    color: white;
+    margin-left: 10px;
+
+}
+.watch h4{
+ font-size: 30px;
+ font-family: 'AR One Sans', sans-serif;
+}
+ 
+.watch span{
+    font-size: 12px;
+   font-family: 'Unbounded', sans-serif;
+}
+
+.mushroom_mob{
+    display: flex;
+    justify-content: center;
+    width: 130%;
+    height: auto;
+    margin-top: 100px;
+    
+
+}
+
+.mushroom_mob img{
+    width: 100%;
+    border-radius: 20px;
+}
+
+@media (min-width: 991px){
+    .mushroom_mob{
+        display: none;
+    }
+}
+
+
+@media (max-width: 1200px){
+    .highlight{
+        
+        width: 118%;
+    }
+}
+
+        @media (max-width: 991px){
+   
+           .nft_box_img{
                 width: 100%;
-                height: 180px;
+                height: 100px;
                 
             }
             .nft_img{
-                height: 600px;
+                height: 300px;
             }
     
             .box_txt_1{
                 width: 100%;
-                height: 180px;
+                height: 100px;
             }
             
             .trending h1{
@@ -481,7 +623,7 @@ font-family: 'Mukta', sans-serif;
                 gap: 5px;
             }
             .top_artist h1{
-                margin-top: 180px;
+                margin-top: 130px;
             }
             .artist_btn button{
                 margin-top: 190px;
@@ -490,12 +632,22 @@ font-family: 'Mukta', sans-serif;
             .bluer img{
                 height: 200px;
             }
+            .highlight{
+                display: none;
+                    
+            }
+
+           
           
-        }
  
+        }
 
  
     @media (max-width : 767px){
+
+        
+
+      
         .nft_box_img{
             width: 100%;
             height: 180px;
@@ -503,6 +655,10 @@ font-family: 'Mukta', sans-serif;
         }
         .nft_img{
             height: 450px;
+        }
+
+        .nft_box_hiden{
+            display: none;
         }
 
         .box_txt_1{
@@ -535,9 +691,13 @@ font-family: 'Mukta', sans-serif;
             display: none;
 
         }
+    
 
         .top_artist{
             width: 100%;
+        }
+        .top_artist h1{
+            margin-top: 180px;
         }
         
         .bluer img{
@@ -555,6 +715,13 @@ font-family: 'Mukta', sans-serif;
         }
         .info_txt span{
             margin-right:6px ;
+        }
+        .discover_btn{
+            display: none;
+
+        }
+        .discover{
+            width: 100%;
         }
     }
     @media (min-width: 768px){
