@@ -443,7 +443,7 @@ font-family: 'Mukta', sans-serif;
 .highlight{
    
     
-    width: 115%;
+    width: 100%;
     margin-top: 100px;
     border-radius: 20px;
 
@@ -457,11 +457,7 @@ font-family: 'Mukta', sans-serif;
 }
 
 
-.highlight img{
-    width: 100%;
-    height: auto;
 
-}
 
 
 .highlight_emoji{
@@ -531,7 +527,7 @@ margin-left: 100px;
     height: 130px;
     margin-top: 420px;
     border-radius: 20px;
-    margin-left: 100px;
+    margin-left: 50px;
   
     
 }
@@ -565,7 +561,7 @@ margin-left: 100px;
 .mushroom_mob{
     display: flex;
     justify-content: center;
-    width: 130%;
+    width: 100%;
     height: auto;
     margin-top: 100px;
     
@@ -577,19 +573,112 @@ margin-left: 100px;
     border-radius: 20px;
 }
 
+.how_it_works{
+    color: white;
+    margin-top: 80px;
+}
+.how_it_works h1{
+    font-size: 38px;
+    line-height: 46px;
+    font-weight: 600;
+    font-family:'Fira Sans', sans-serif;
+}
+
+.how_it_works span{
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 35px;
+     font-family: 'AR One Sans';;
+}
+
+
+.works_box h5{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 30px;
+    font-family: 'Nunito Sans';
+}
+
+.works_box span{
+    font-size: 16px;
+    font-weight:400;
+    line-height: 23px;
+    font-family: 'AR One Sans';
+
+}
+
+
+
+
+.works_box{
+    width: 100%;
+    height: 440px;
+    border-radius: 20px;
+    margin-top: 40px;
+    background-color: rgba(59, 59, 59, 1);
+    color: white;
+  
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+    
+}
+
+.works_box img{
+    width: 80%;
+}
+
+.how_works_mob{
+    width: 100%;
+    height: 160px;
+    background-color: rgba(59, 59, 59, 1);
+    color: white;
+    margin-top: 40px;
+    border-radius: 30px;
+    justify-content: space-between;
+}
+
+
+.how_works_mob img{
+    width: 70%;
+    margin-left: 30px;
+
+}
+
+.works_mob_txt{
+    width: 50%;
+    
+}
+
+
+.works_mob_txt h5{
+    margin-top: 10px;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 23px;
+    font-family: 'Nunito Sans';
+}
+
+.works_mob_txt span{
+    font-size: 12px;
+    line-height:17px;
+    font-weight: 400;
+    font-family: 'AR One Sans';
+
+}
+
+
 @media (min-width: 991px){
     .mushroom_mob{
         display: none;
     }
 }
 
-
-@media (max-width: 1200px){
-    .highlight{
-        
-        width: 118%;
-    }
-}
 
         @media (max-width: 991px){
    
@@ -637,6 +726,9 @@ margin-left: 100px;
                     
             }
 
+            .works_box{
+                height: 340px;
+            }
            
           
  
@@ -723,6 +815,9 @@ margin-left: 100px;
         .discover{
             width: 100%;
         }
+        .web{
+            display: none;
+        }
     }
     @media (min-width: 768px){
         .artist_btn_2{
@@ -731,6 +826,9 @@ margin-left: 100px;
         .categories_mob{
             display: none;
 
+        }
+        .works_mob{
+            display: none;
         }
     }
 
@@ -777,7 +875,24 @@ margin-left: 100px;
             
             height: 200px;
         }
+        .how_works_mob{
+            height: 190px;
+        }
+        .how_works_mob img{
+            width: 100%;
+            margin-left: 10px;
+            margin-top: 10px;
+        
+        }
 
+
+    }
+    
+    @media (max-width : 324px){
+        .works_mob_txt {
+           width: 50%;
+
+        }
 
     }
 
