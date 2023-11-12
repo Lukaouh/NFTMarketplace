@@ -209,6 +209,24 @@ font-family: 'Mukta', sans-serif;
     font-family: 'Fira Sans', sans-serif;
 
 }
+.positioned{
+    position: relative;
+}
+.number_top{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    height: 30px;
+    font-size: 16px;
+    font-family: 'AR One Sans', sans-serif;
+    background-color: rgba(43, 43, 43, 1);
+    color: #585353;
+    border-radius: 200px;
+    position: absolute;
+    bottom: 130px;
+    right: 220px;
+}
 
 .top_artist h1{
     margin-top: 130px;
@@ -429,7 +447,7 @@ font-family: 'Mukta', sans-serif;
 }
 .price span{
     color: white;
-    font-family: 'Unbounded', sans-serif;;
+    font-family: 'Unbounded', sans-serif;
 }
 
 
@@ -452,19 +470,12 @@ font-family: 'Mukta', sans-serif;
     background-position: center;
     background-size: cover;
 
-    
-  
 }
-
-
-
 
 
 .highlight_emoji{
 margin-top: 400px;
 margin-left: 100px;
-
-
 
     
 }
@@ -596,6 +607,7 @@ margin-left: 100px;
     display: flex;
     justify-content: center;
     align-items: center;
+    color: #A259FF;
    
     font-size: 22px;
     font-weight: 600;
@@ -672,6 +684,161 @@ margin-left: 100px;
 
 }
 
+.subscire_box{
+    width: 100%;
+    height: 430px;
+    border-radius: 20px;
+    background-color: rgba(59, 59, 59, 1);
+    margin-top: 120px;
+}
+
+.cosmonavt{
+   padding: 60px 60px;
+    
+
+}
+
+.cosmonavt img{
+
+
+    width: 100%;
+    height: 330px;
+}
+.cosmonavt_txt{
+    height: 172px;
+}
+.cosmonavt_txt h1{
+    margin-top: 64px;
+    color: white;
+    font-size: 54px;
+    line-height: 55px;
+    font-weight: 600;
+
+    font-family: 'Fira Sans', sans-serif;
+}
+.cosmonavt_txt span{
+    margin-top: 6px;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 34px;
+    color: rgba(255, 255, 255, 0.781);
+
+    font-family: 'Unbounded', sans-serif;
+    
+
+}
+#cosmo_sub_btn{
+    position: relative;
+    right: 40px;
+}
+.cosmo_btn{
+    width: 100%;
+    margin-top: 2vh;
+    
+  
+}
+
+
+
+.email_btn{
+    font-size: 14px;
+
+   
+    height: 50px;
+    background-color:white;
+    color: rgba(162, 89, 255, 1);
+    border: none;
+    border-radius: 20px;
+    width: 230px;
+
+
+}
+
+.subscribe_btn{
+    
+    
+
+    font-family: 'Teko', sans-serif;
+    font-size: 22px;
+ 
+    width: 200px;
+    height: 50px;
+    border-radius: 20px;
+    background-color: rgba(162, 89, 255, 1) ;
+    color: white;
+    border: none;
+    
+}
+.cosmo_img{
+    width: 100%;
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cosmo_img img{
+    width: 100%;
+    height: 330px;
+}
+
+.cosmo_txt{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+
+}
+
+
+.cosmo_mob_btn{
+    width: 100%;
+    margin-top: 22px;
+    justify-content: center;
+    
+}
+
+.email_mob_btn{
+    font-size: 22px;
+    text-align: start;
+
+   
+    height: 60px;
+    background-color:white;
+    color: rgba(162, 89, 255, 1);
+    border: none;
+    border-radius: 20px;
+    width: 100%;
+}
+
+.subscribe_mob_btn{
+    font-family: 'Teko', sans-serif;
+    font-size: 22px;
+    margin-top: 12px;
+ 
+    width: 100%;
+    height: 60px;
+    border-radius: 20px;
+    background-color: rgba(162, 89, 255, 1) ;
+    color: white;
+    border: none;
+
+}
+
+.cosmonavt_txt h2{
+    margin-top: 22px;
+    color: white;
+    font-size: 54px;
+    line-height: 55px;
+    font-weight: 600;
+
+    font-family: 'Fira Sans', sans-serif;
+
+}
+@media(max-width:1200px){
+    .number_top{
+        left: 10px;
+    }
+}
 
 @media (min-width: 991px){
     .mushroom_mob{
@@ -729,14 +896,30 @@ margin-left: 100px;
             .works_box{
                 height: 340px;
             }
-           
-          
+           .email_btn{
+            width: 160px;
+           }
+           .subscribe_btn {
+            width: 150px;
+           }
+          .cosmonavt img{
+            height: 300px;
+          }
+
+          .cosmonavt_txt h1{
+            font-size: 48px;
+          }
+          .cosmonavt_txt span{
+            font-size: 18px;
+          }
  
         }
 
  
     @media (max-width : 767px){
-
+        .txt_img img{
+            height: 400px;
+        }
         
 
       
@@ -765,10 +948,13 @@ margin-left: 100px;
         .appeared_card{
             width: 100%;
         }
+        .number_top{
+            top: 10px;
+        }
 
         .card{
             width: 100%;
-            border-radius: 50px;
+            border-radius: 20px;
             height: 92px;
         }
         .card h5{
@@ -783,7 +969,9 @@ margin-left: 100px;
             display: none;
 
         }
-    
+        .number_hidden{
+            display: none;
+        }
 
         .top_artist{
             width: 100%;
@@ -818,6 +1006,10 @@ margin-left: 100px;
         .web{
             display: none;
         }
+    
+        .subscire_box{
+            display: none;
+        }
     }
     @media (min-width: 768px){
         .artist_btn_2{
@@ -827,10 +1019,16 @@ margin-left: 100px;
             display: none;
 
         }
+    
+       
         .works_mob{
             display: none;
         }
+        .subscribe_box_mob{
+            display: none;
+        }
     }
+
 
 
     @media (max-width : 574px){
@@ -884,14 +1082,26 @@ margin-left: 100px;
             margin-top: 10px;
         
         }
+        .txt_img img{
+            height: 330px;
+        }
+        
 
 
     }
     
-    @media (max-width : 324px){
+    @media (max-width : 327px){
         .works_mob_txt {
            width: 50%;
+         
 
+        }
+        .how_works_mob img{
+            margin-top: 14px;
+        }
+
+        .cosmo_mob_btn{
+            margin-top: 100px;
         }
 
     }
