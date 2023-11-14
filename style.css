@@ -307,11 +307,9 @@ font-family: 'Mukta', sans-serif;
     display: flex;
     align-items: center;
     justify-content: center;
-}
-.card h6{
     color: white;
-    
 }
+
 .card span{
     color: white;
 
@@ -740,7 +738,8 @@ margin-left: 100px;
 
 
 
-.email_btn{
+
+.email_input{
     font-size: 14px;
 
    
@@ -752,6 +751,9 @@ margin-left: 100px;
     width: 230px;
 
 
+}
+.email_input:hover{
+    border: none;
 }
 
 .subscribe_btn{
@@ -896,7 +898,7 @@ margin-left: 100px;
             .works_box{
                 height: 340px;
             }
-           .email_btn{
+           .email_input{
             width: 160px;
            }
            .subscribe_btn {
@@ -953,16 +955,18 @@ margin-left: 100px;
         }
 
         .card{
+            
+            display: flex;
+        
             width: 100%;
             border-radius: 20px;
             height: 92px;
         }
-        .card h5{
-            color: #A259FF;
-        }
+       
         .card img{
+        
             margin-top: 5px;
-            max-width: 40px;
+            width: 40px;
             height: 40px;
         }
         .artist_btn{
