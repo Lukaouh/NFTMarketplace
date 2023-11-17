@@ -209,6 +209,27 @@ font-family: 'Mukta', sans-serif;
     font-family: 'Fira Sans', sans-serif;
 
 }
+
+.artist_mob_txt{
+    color: white;
+    margin-top: 20px;
+    margin-left: 10px;
+
+}
+
+.card_mob img{
+    width: 100px;
+    height: 100px;
+    margin-top: 10px;
+}
+
+.card_mob{
+    display: flex;
+    padding: 0 10px;
+    width: 100%;
+    height: 130px;
+    border-radius:20px;
+}
 .positioned{
     position: relative;
 }
@@ -460,10 +481,11 @@ font-family: 'Mukta', sans-serif;
    
     
     width: 100%;
+    height: 600px;
     margin-top: 100px;
     border-radius: 20px;
-
-    background-image: url(./img/nft_info.png);
+    background-image: linear-gradient(to bottom, rgba(162, 89, 255, 0), rgba(162, 89, 255, 1)),
+     url(./img/nft_info.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -567,20 +589,21 @@ margin-left: 100px;
    font-family: 'Unbounded', sans-serif;
 }
 
-.mushroom_mob{
-    display: flex;
-    justify-content: center;
+.mushroom_cont_mob{
+    border-radius: 20px;
     width: 100%;
-    height: auto;
-    margin-top: 100px;
+    height: 800px;
+    margin-top: 100px; 
+    background-image: linear-gradient(rgba(162, 89, 255, 0), rgba(162, 89, 255, 1)),
+    url(./img/mushroom_mobile.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
     
 
 }
 
-.mushroom_mob img{
-    width: 100%;
-    border-radius: 20px;
-}
 
 .how_it_works{
     color: white;
@@ -846,6 +869,9 @@ margin-left: 100px;
     .mushroom_mob{
         display: none;
     }
+    .mushroom_cont_mob{
+        display: none;
+    }
 }
 
 
@@ -1022,6 +1048,9 @@ margin-left: 100px;
         .categories_mob{
             display: none;
 
+        }
+        .top_artist_mob{
+            display: none;
         }
     
        
