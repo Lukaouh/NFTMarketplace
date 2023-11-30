@@ -1003,6 +1003,10 @@ color: white;
         width: 70%;
 }
 
+.photo_sign_up img{
+    width: 100%;
+}
+
 
 
 /* For Collect wallet pages!!!!!!!! */
@@ -1316,6 +1320,8 @@ color: white;
 
  
     @media (max-width : 767px){
+
+
         .txt_img img{
             height: 400px;
         }
@@ -1433,10 +1439,10 @@ color: white;
             width: 100%;
         }
 
-        .signup_img img{
-            width: 100%;
-            height: 550px;
+        .signup_img{
+            display: none;
         }
+
 
 
     
@@ -1480,7 +1486,12 @@ color: white;
         .subscribe_box_mob{
             display: none;
         }
+
+        .photo_sign_up{
+            display: none;
+        }
     }
+
 
 
 
@@ -1522,6 +1533,10 @@ color: white;
             grid-template-columns: 33fr minmax(0, 3.5fr) minmax(0, 8fr)  ;
 
         }
+
+        /* For Sign up Pages !!!!!!! */
+
+        
 
     }
 
