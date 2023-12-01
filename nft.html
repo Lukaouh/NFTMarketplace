@@ -1,0 +1,801 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+        @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Nunito+Sans:wght@200&display=swap');
+        </style>
+        <style>
+        @import url('https://fonts.googleapis.com/css2?family=AR+One+Sans:wght@600&display=swap');
+        </style>
+        <style>
+        @import url('https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap');
+        </style>
+        <style>
+        @import url('https://fonts.googleapis.com/css2?family=Unbounded:wght@200&display=swap');
+        </style>
+        <style>
+          @import url('https://fonts.googleapis.com/css2?family=Teko&display=swap');
+        </style>
+       <style>
+        @import url('https://fonts.googleapis.com/css2?family=Unbounded:wght@200&display=swap');
+        </style>
+      
+      
+        <script src="https://kit.fontawesome.com/395ef9bc3c.js" crossorigin="anonymous"></script>
+    
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="style.css"/>
+        <title>NFTs</title>
+    </head>
+<body style=" background-color: #2B2B2B; margin-left: 0;">
+    <div class="header">
+        <div class="container-fluid">
+          <nav class="navbar navbar-expand-lg text-white ">
+            <a class="navbar-brand text-white" href="index.html" >
+             <img src="./img/NFTmarket.png" class="img_start" width="32" height="32" >
+             NFT Marketplace
+            </a>
+            <nav class="navbar navbar-dark ">
+                <button class="navbar-toggler w-100 ms-md-auto" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button> 
+            </nav>
+    
+              <div class="collapse navbar-collapse w-100" id="navbarNav">
+                <ul class="navbar-nav ms-md-auto " style="gap: 16px; ">
+                  <li class="nav-item active ">
+                   <a href = "marketplace.html">
+                    <button class="nav-link text-white" href="#">Marketplace</button>
+                   </a>
+                  </li>
+                  <li class="nav-item ">
+                    <a href="./ranking.html">
+                      <button class="nav-link text-white" href="./ranking.html">Rankings</button>
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="./wallet.html">
+                      <button class="nav-link text-white" href="./wallet.html">Connect a wallet </button>
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="signup.html">
+                    <button class="btn" style="background-color: #A259FF; color: white;"> <i class="fa-regular fa-user" style="color: white; margin-right: 16px;"></i>Sign up</button>
+                    </a>
+                  </li>
+                
+                </ul>
+          
+            </div>
+          </nav>
+        </div>
+           
+        
+    </div>
+    < <div class="nft_img_page">
+        <img src="./img/Nft_img.png" class="img-fluid">
+    </div>  
+    <div class="container" ">
+        <div class="row w-100 gy-5 centred_item" style="margin-top: 20px;">
+            <div class="col-md-6">
+                    <div class="nfts_txt">
+                        <h1>The Orbitans</h1>
+                        <span>Minted on sep 30, 2022</span>
+                        <br>
+                        <br>
+                        <div class="clock_box hidden_box">
+                          <span style="margin-left:45px">Auction Ends In:</span>
+                          <div class="hours_nft" style="display: flex; align-items: center;justify-content: center;">
+                              <h3>59 : </h3>
+                              <h3>59 : </h3>
+                              <h3>59 </h3>
+                          </div>
+                          <div class="box_time" style="display: flex; gap: 20px; display: flex; align-items: center;justify-content: center;">
+                              <span>Hours :</span>
+                              <span>Minutes :</span>
+                              <span>seconds</span>
+                          </div>
+                          <div class="bid_button">
+                              <button type="button">Place bid</button>
+                          </div>
+                      </div>
+                        <br>
+                        <span> Created By</span>
+                        <div class="icon_img">
+                            <img src="./img/avatar_nft.png" style="width: 22px; height: 22px;">
+                            <a href="./marketplace.html">
+                                <span style="color:white;">Orbitian</span>
+                            </a>
+                        </div>
+                        <br>
+                    <div class="description_nft">
+                        <h6 style="font-size: 22px;">Description</h6>
+                        <span style="color:white;">The Orbitians</span>
+                        <h6 style="color:white;">The Orbitians is a collection of 10,000 unique NFTs on the Ethereum blockchain,
+                            <br>
+                            <br>
+                            There are all sorts of beings in the NFT Universe. The most advanced and friendly of the bunch are Orbitians.
+                            <br>
+                            <br> 
+                            They live in a metal space machines, high up in the sky and only have one foot on Earth. These Orbitians are a peaceful race, 
+                            but they have been at war with a group of invaders for many generations. 
+                            The invaders are called Upside-Downs, because of their inverted bodies that live on the ground, 
+                            yet do not know any other way to be. 
+                            Upside-Downs believe that they will be able to win this war if they could only get an eye into Orbitian territory, 
+                            so they've taken to make human beings their target</h6>
+                            <br>
+                            <h6 style="font-size: 20px;">Details</h6>
+                            <img src="./img/Globe_nft.png" style="width: 20px; height: 20px;">
+                             <span>View On Etherscan</span>
+                            <br>
+                            <img src="./img/Globe_nft.png" style="width: 20px; height: 20px;">
+                            <span>View Original</span>
+                            <br>
+                            <br>
+                            <h6 style="font-size: 20px;">Tags</h6>
+                            <div class="nfts_button btn_nft_web">
+                              <a href="./marketplace.html" style="text-decoration: none;">
+                                <button  type="button">ANIMATION</button>
+                              </a>
+                              <a href="./marketplace.html" style="text-decoration: none;">
+                                <button  type="button">ILLUSTRATION</button>
+                              </a>
+                              <a href="./marketplace.html" style="text-decoration: none;">
+                                <button  type="button">MOON</button>
+                              </a>
+                              <a href="./marketplace.html" style="text-decoration: none;">
+                                <button  type="button">MOON</button>
+                              </a>
+                            </div>
+                            <div class="nfts_button btn_nft_mob" style="display: grid;">
+                              <a href="./marketplace.html" style="text-decoration: none;">
+                                <button  type="button">ANIMATION</button>
+                              </a>
+                              <a href="./marketplace.html" style="text-decoration: none;">
+                                <button  type="button">ILLUSTRATION</button>
+                              </a>
+                              <a href="./marketplace.html" style="text-decoration: none;">
+                                <button  type="button">MOON</button>
+                              </a>
+                              <a href="./marketplace.html" style="text-decoration: none;">
+                                <button  type="button">MOON</button>
+                              </a>
+                            </div>
+                    </div>  
+                </div>
+            </div>
+           <div class="col-md-6 clock">
+                <div class="clock_box web_clock_box">
+                    <span style="margin-left:45px">Auction Ends In:</span>
+                    <div class="hours_nft" style="display: flex; align-items: center;justify-content: center;">
+                        <h3>59 : </h3>
+                        <h3>59 : </h3>
+                        <h3>59 </h3>
+                    </div>
+                    <div class="box_time" style="display: flex; gap: 20px; display: flex; align-items: center;justify-content: center;">
+                        <span>Hours :</span>
+                        <span>Minutes :</span>
+                        <span>seconds</span>
+                    </div>
+                    <div class="bid_button">
+                        <button type="button">Place bid</button>
+                    </div>
+                </div>
+            </div> 
+
+            
+        </div>
+    </div>
+    </div>
+
+    <div class="container">
+      <div class="row" style="margin-top: -50px;">
+        <div class="col-6 top_artist ">
+          <h1>More From This Artists</h1>
+        </div>
+        <div class="col-6 artist_btn">
+          <a href="./ranking.html">
+            <button type="button"  class="p-2" style="width: 200px;"><i class="fa-solid fa-arrow-right fa-beat" style="margin-right: 10px;"></i> Go To Artist Page</button>
+          </a>
+        </div>
+      </div>
+    </div>
+  
+    
+    <div class="container rank_web">
+      
+      <a href="./nft.html" style="text-decoration: none;">
+        <div class="row w-100 gy-5" style="margin-top: 5px;">
+          <div class="col-md-4 discover_boxes">
+            <img src="./img/fox_nft_.png">
+            <div class="dicover_info">
+              <h5>Foxy life</h5> 
+              <div class="row info_box">
+                <div class="col-1 info_img">
+                  <img src="./img/distant_avatar.png">
+                </div>
+                <div class="col-1 info_txt">
+                  <span>Shroomie</span>
+                </div>
+                <div class="row">
+                  <div class="col-6 price">
+                 <h6>price</h6>
+                 <span>1.63 ETH</span>
+               </div> 
+               <div class="col-6 price">
+                 <h6>Higest Bid</h6>
+                 <span>0.33 wETH</span>
+               </div> 
+               </div>
+                
+              
+              </div>
+        
+        
+            </div>
+        
+          </div>
+          <div class="col-md-4 discover_boxes">
+            <img src="./img/cat_nft_.png">
+            <div class="dicover_info">
+              <h5>Future Cat</h5>
+              <div class="row info_box">
+                <div class="col-1 info_img">
+                  <img src="./img/life_avatar.png">
+                </div>
+                <div class="col-1 info_txt">
+                  <span>NebulaKid</span>
+                </div>
+                <div class="row">
+                  <div class="col-6 price">
+                 <h6>price</h6>
+                 <span>1.63 ETH</span>
+               </div> 
+               <div class="col-6 price">
+                 <h6>Higest Bid</h6>
+                 <span>0.33 wETH</span>
+               </div> 
+        
+               </div>
+                
+              </div>
+        
+             
+            </div>
+        
+          </div>
+          <div class="col-md-4 discover_boxes">
+            <img src="./img/dog_nft_.png">
+            <div class="dicover_info">
+              <h5>Psycho dog</h5>
+              <div class="row info_box">
+                <div class="col-1 info_img">
+                  <img src="./img/astro_avatar.png">
+                </div>
+                <div class="col-1 info_txt">
+                  <span>Spaceone</span>
+                </div>
+                <div class="row">
+                   <div class="col-6 price">
+                  <h6>price</h6>
+                  <span>1.63 ETH</span>
+                </div> 
+                <div class="col-6 price">
+                  <h6>Higest Bid</h6>
+                  <span>0.33 wETH</span>
+                </div> 
+        
+                </div>
+               
+              </div>
+              
+            </div>
+        
+          </div>
+          <div class="col-md-4 discover_boxes">
+            <img src="./img/bear_rank.png">
+            <div class="dicover_info">
+              <h5>Designer Bear</h5>
+              <div class="row info_box">
+                <div class="col-1 info_img">
+                  <img src="./img/astro_avatar.png">
+                </div>
+                <div class="col-1 info_txt">
+                  <span>Spaceone</span>
+                </div>
+                <div class="row">
+                   <div class="col-6 price">
+                  <h6>price</h6>
+                  <span>1.63 ETH</span>
+                </div> 
+                <div class="col-6 price">
+                  <h6>Higest Bid</h6>
+                  <span>0.33 wETH</span>
+                </div> 
+        
+                </div>
+               
+              </div>
+              
+            </div>
+        
+          </div>
+          <div class="col-md-4 discover_boxes">
+            <img src="./img/robot_nft.png">
+            <div class="dicover_info">
+              <h5>Dancing Robot 03</h5>
+              <div class="row info_box">
+                <div class="col-1 info_img">
+                  <img src="./img/astro_avatar.png">
+                </div>
+                <div class="col-1 info_txt">
+                  <span>Spaceone</span>
+                </div>
+                <div class="row">
+                   <div class="col-6 price">
+                  <h6>price</h6>
+                  <span>1.63 ETH</span>
+                </div> 
+                <div class="col-6 price">
+                  <h6>Higest Bid</h6>
+                  <span>0.33 wETH</span>
+                </div> 
+        
+                </div>
+               
+              </div>
+              
+            </div>
+          </div>
+          <div class="col-md-4 discover_boxes">
+            <img src="./img/dancing_rank.png">
+            <div class="dicover_info">
+              <h5>Dancing Robot 07</h5>
+              <div class="row info_box">
+                <div class="col-1 info_img">
+                  <img src="./img/astro_avatar.png">
+                </div>
+                <div class="col-1 info_txt">
+                  <span>Spaceone</span>
+                </div>
+                <div class="row">
+                   <div class="col-6 price">
+                  <h6>price</h6>
+                  <span>1.63 ETH</span>
+                </div> 
+                <div class="col-6 price">
+                  <h6>Higest Bid</h6>
+                  <span>0.33 wETH</span>
+                </div> 
+        
+                </div>
+               
+              </div>
+              
+            </div>
+          </div>
+          <div class="col-md-4 discover_boxes">
+            <img src="./img/robor-nft_2.png">
+            <div class="dicover_info">
+              <h5>Dancing Robot 08</h5>
+              <div class="row info_box">
+                <div class="col-1 info_img">
+                  <img src="./img/astro_avatar.png">
+                </div>
+                <div class="col-1 info_txt">
+                  <span>Spaceone</span>
+                </div>
+                <div class="row">
+                   <div class="col-6 price">
+                  <h6>price</h6>
+                  <span>1.63 ETH</span>
+                </div> 
+                <div class="col-6 price">
+                  <h6>Higest Bid</h6>
+                  <span>0.33 wETH</span>
+                </div> 
+        
+                </div>
+               
+              </div>
+              
+            </div>
+          </div>
+          <div class="col-md-4 discover_boxes">
+            <img src="./img/cosmonavt_rank.png">
+            <div class="dicover_info">
+              <h5>space travel</h5>
+              <div class="row info_box">
+                <div class="col-1 info_img">
+                  <img src="./img/astro_avatar.png">
+                </div>
+                <div class="col-1 info_txt">
+                  <span>Spaceone</span>
+                </div>
+                <div class="row">
+                   <div class="col-6 price">
+                  <h6>price</h6>
+                  <span>1.63 ETH</span>
+                </div> 
+                <div class="col-6 price">
+                  <h6>Higest Bid</h6>
+                  <span>0.33 wETH</span>
+                </div> 
+        
+                </div>
+               
+              </div>
+              
+            </div>
+      
+          </div>
+          <div class="col-md-4 discover_boxes">
+            <img src="./img/sunset_rank.png">
+            <div class="dicover_info">
+              <h5>Sunset Deminsion</h5>
+              <div class="row info_box">
+                <div class="col-1 info_img">
+                  <img src="./img/astro_avatar.png">
+                </div>
+                <div class="col-1 info_txt">
+                  <span>Spaceone</span>
+                </div>
+                <div class="row">
+                   <div class="col-6 price">
+                  <h6>price</h6>
+                  <span>1.63 ETH</span>
+                </div> 
+                <div class="col-6 price">
+                  <h6>Higest Bid</h6>
+                  <span>0.33 wETH</span>
+                </div> 
+        
+                </div>
+               
+              </div>
+              
+            </div>
+        
+          </div>
+      </div>
+      </a>
+     
+    </div>
+    <div class="container rank_mob"> 
+      <div class="row w-100 gy-5" style="margin-top: 10px;">
+      <div class="col-md-6 discover_boxes">
+        <img src="./img/fox_nft_.png">
+        <div class="dicover_info">
+          <h5>Foxy life</h5> 
+          <div class="row info_box">
+            <div class="col-1 info_img">
+              <img src="./img/distant_avatar.png">
+            </div>
+            <div class="col-1 info_txt">
+              <span>Shroomie</span>
+            </div>
+            <div class="row">
+              <div class="col-6 price">
+             <h6>price</h6>
+             <span>1.63 ETH</span>
+           </div> 
+           <div class="col-6 price">
+             <h6>Higest Bid</h6>
+             <span>0.33 wETH</span>
+           </div> 
+           </div>
+            
+          
+          </div>
+    
+    
+        </div>
+    
+      </div>
+      <div class="col-md-6 discover_boxes">
+        <img src="./img/cat_nft_.png">
+        <div class="dicover_info">
+          <h5>Future Cat</h5>
+          <div class="row info_box">
+            <div class="col-1 info_img">
+              <img src="./img/life_avatar.png">
+            </div>
+            <div class="col-1 info_txt">
+              <span>NebulaKid</span>
+            </div>
+            <div class="row">
+              <div class="col-6 price">
+             <h6>price</h6>
+             <span>1.63 ETH</span>
+           </div> 
+           <div class="col-6 price">
+             <h6>Higest Bid</h6>
+             <span>0.33 wETH</span>
+           </div> 
+    
+           </div>
+            
+          </div>
+    
+         
+        </div>
+    
+      </div>
+      <div class="col-md-6 discover_boxes">
+        <img src="./img/dog_nft_.png">
+        <div class="dicover_info">
+          <h5>Psycho dog</h5>
+          <div class="row info_box">
+            <div class="col-1 info_img">
+              <img src="./img/astro_avatar.png">
+            </div>
+            <div class="col-1 info_txt">
+              <span>Spaceone</span>
+            </div>
+            <div class="row">
+               <div class="col-6 price">
+              <h6>price</h6>
+              <span>1.63 ETH</span>
+            </div> 
+            <div class="col-6 price">
+              <h6>Higest Bid</h6>
+              <span>0.33 wETH</span>
+            </div> 
+    
+            </div>
+           
+          </div>
+          
+        </div>
+    
+      </div>
+      <div class="col-md-6 discover_boxes">
+        <img src="./img/bear_rank.png">
+        <div class="dicover_info">
+          <h5>Designer Bear</h5>
+          <div class="row info_box">
+            <div class="col-1 info_img">
+              <img src="./img/astro_avatar.png">
+            </div>
+            <div class="col-1 info_txt">
+              <span>Spaceone</span>
+            </div>
+            <div class="row">
+               <div class="col-6 price">
+              <h6>price</h6>
+              <span>1.63 ETH</span>
+            </div> 
+            <div class="col-6 price">
+              <h6>Higest Bid</h6>
+              <span>0.33 wETH</span>
+            </div> 
+    
+            </div>
+           
+          </div>
+          
+        </div>
+    
+      </div>
+      <div class="col-md-6 discover_boxes">
+        <img src="./img/robot_nft.png">
+        <div class="dicover_info">
+          <h5>Dancing Robot 03</h5>
+          <div class="row info_box">
+            <div class="col-1 info_img">
+              <img src="./img/astro_avatar.png">
+            </div>
+            <div class="col-1 info_txt">
+              <span>Spaceone</span>
+            </div>
+            <div class="row">
+               <div class="col-6 price">
+              <h6>price</h6>
+              <span>1.63 ETH</span>
+            </div> 
+            <div class="col-6 price">
+              <h6>Higest Bid</h6>
+              <span>0.33 wETH</span>
+            </div> 
+    
+            </div>
+           
+          </div>
+          
+        </div>
+      </div>
+      <div class="col-md-6 discover_boxes">
+        <img src="./img/dancing_rank.png">
+        <div class="dicover_info">
+          <h5>Dancing Robot 07</h5>
+          <div class="row info_box">
+            <div class="col-1 info_img">
+              <img src="./img/astro_avatar.png">
+            </div>
+            <div class="col-1 info_txt">
+              <span>Spaceone</span>
+            </div>
+            <div class="row">
+               <div class="col-6 price">
+              <h6>price</h6>
+              <span>1.63 ETH</span>
+            </div> 
+            <div class="col-6 price">
+              <h6>Higest Bid</h6>
+              <span>0.33 wETH</span>
+            </div> 
+    
+            </div>
+           
+          </div>
+          
+        </div>
+      </div>
+      <div class="col-md-6 discover_boxes">
+        <img src="./img/robor-nft_2.png">
+        <div class="dicover_info">
+          <h5>Dancing Robot 08</h5>
+          <div class="row info_box">
+            <div class="col-1 info_img">
+              <img src="./img/astro_avatar.png">
+            </div>
+            <div class="col-1 info_txt">
+              <span>Spaceone</span>
+            </div>
+            <div class="row">
+               <div class="col-6 price">
+              <h6>price</h6>
+              <span>1.63 ETH</span>
+            </div> 
+            <div class="col-6 price">
+              <h6>Higest Bid</h6>
+              <span>0.33 wETH</span>
+            </div> 
+    
+            </div>
+           
+          </div>
+          
+        </div>
+      </div>
+      <div class="col-md-6 discover_boxes">
+        <img src="./img/cosmonavt_rank.png">
+        <div class="dicover_info">
+          <h5>space travel</h5>
+          <div class="row info_box">
+            <div class="col-1 info_img">
+              <img src="./img/astro_avatar.png">
+            </div>
+            <div class="col-1 info_txt">
+              <span>Spaceone</span>
+            </div>
+            <div class="row">
+               <div class="col-6 price">
+              <h6>price</h6>
+              <span>1.63 ETH</span>
+            </div> 
+            <div class="col-6 price">
+              <h6>Higest Bid</h6>
+              <span>0.33 wETH</span>
+            </div> 
+    
+            </div>
+           
+          </div>
+          
+        </div>
+  
+      </div>
+      <div class="col-6 artist_btn_2">
+        <a href="./ranking.html" style="width: 100%;">
+          <button type="button" class="p-2"><i class="fa-solid fa-arrow-right fa-beat" style="margin-right: 10px;"></i>Go to Artist Page</button>
+      
+        </a>
+      </div>
+    </div>
+      
+   </div>
+   <div class="footer">
+    <div class="footer_box" style="background-color: rgba(59, 59, 59, 1);">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4 footer_align ">
+            <h5 class="nav-brand_footer text-white" href="#">
+              <img src="./img/NFTmarket.png" class="img_start" width="32" height="32">
+              NFT Marketplace
+              </h5>
+              <ul class="nav flex-column" style="gap: 6px; margin-top: 30px;">
+                <li class="nav-item mb-2 " >
+                  <span class="nav-link p-0 " href="#">NFT marketplace UI created<br> with Anima for Figma.</span>
+                </li>
+                <li class="nav-item mb-2  ">
+                  <span class="nav-link p-0 " href="#">Join our community :</span>
+                </li>
+                <ul class="nav col-md-4 justify-content-start list-unstyled d-flex w-100" style="gap: 10px;">
+                  <li> 
+                    <a class="text-muted" href="#">
+                      <i class="fa-brands fa-discord fa-beat" style="color: #A259FF;"></i>
+                    </a>
+                  </li>
+                  <li> 
+                    <a class="text-muted" href="#">
+                      <i class="fa-brands fa-youtube fa-beat" style="color: #A259FF;"></i>
+                    </a>
+                  </li>
+                  <li> 
+                    <a class="text-muted" href="#">
+                      <i class="fa-brands fa-x-twitter fa-beat" style="color: #A259FF;"></i>
+                    </a>
+                  </li>
+                  <li> 
+                    <a class="text-muted" href="#">
+                      <i class="fa-brands fa-instagram fa-beat" style="color: #A259FF;"></i>
+                    </a>
+                  </li>
+    
+                </ul>
+              </ul>
+              
+  
+          </div>
+          <div class="col-md-4 footer_align">
+            <h5 class="nav-brand_footer">Explore</h5>
+            <ul class="nav flex-column" style="gap: 10px;margin-top: 30px;">
+              <li class="nav-item mb-2  ">
+                <a href="./marketplace.html">
+                  <span class="nav-link p-0 " href="#">Marketplace</span>
+                </a>
+              </li>
+              <li class="nav-item mb-2  ">
+                <a href="./ranking.html">
+                  <span class="nav-link p-0 " href="#">Rankings</span>
+                </a>
+              </li>
+              <li class="nav-item mb-2  ">
+                <a href="./wallet.html">
+                  <span class="nav-link p-0 ">
+                      Connect wallet
+                  </span> 
+              </a>
+              </li>
+              
+            </ul>
+            
+          </div>
+          <div class="col-md-4 footer_align ">
+            <h5 class="nav-brand_footer">Join our weekly digest</h5>
+            <ul class="nav flex-column" style="gap: 6px; margin-top: 30px;">
+              <li class="nav-item mb-2  ">
+                <span class="nav-link p-0" href="#">Get exclusive promotions & updates straight to your inbox.</span>
+              </li>
+              <div class="cosmo_btn_footer">
+                <input type="email_footer" class="email_input" placeholder="Enter your email here" ></input>
+                <button class="subscribe_btn_footer" id="cosmo_sub_btn" >Subscribe</button>
+              </div>
+              <div class="cosmo_mob_btn_footer">
+                <input type="email" class="email_mob_btn" placeholder="Enter your email here"></input>
+                <button class="subscribe_footer_btn"><i class="fa-sharp fa-regular fa-envelope" style="margin-right:8px ;"></i>Subscribe</button>
+              </div>
+    
+            
+            </ul>
+            
+          </div>
+        </div>
+        <div class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top ">
+          <p class="mb-3 mb-md-0 " style="color:rgb(122, 114, 114) ;">Ⓒ NFT Market. Use this template freely.</p>
+  
+        </div>
+  
+      </div>
+       
+    </div>
+  </div>
+    
+    
+</body>
+</html>
