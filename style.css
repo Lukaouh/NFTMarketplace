@@ -475,7 +475,55 @@ font-family: 'Mukta', sans-serif;
     align-items: center;
     
 }
+.clock_mob{
+    position: absolute;
+    margin-top: 300px;
+    margin-left: 100px;
+    width: 70%;
+    height: 180px;
+    background-color: rgba(111, 79, 129, 0.5);
+    border-radius: 20px;
+}
 
+.highlight_name_mob{
+    background-color: #2B2B2B;
+    border-radius: 20px;
+    box-shadow: 0 0 0 14px #2B2B2B;
+}
+.highlight_emoji_mob{
+    margin-left: 100px;
+    
+
+}
+.mob_btn_index{
+    width: 320px;
+    height: 50px;
+    border: none;
+    border-radius: 20px;
+    margin-top: 20px;
+    color: #A259FF;
+
+}
+.mob_mushroom{
+    display: flex;
+    justify-content: center;
+}
+.clock_mob_hours{
+    gap: 20px;
+}
+.clock_mob_hours h3{
+    color: white;
+    font-size: 45px;
+    font-family: 'Nunito Sans';
+ }
+
+ .clock_mob_min span{
+    color: white;
+    font-size: 16px;
+    font-family: 'Unbounded', sans-serif;
+
+    
+ }
 .highlight{
    
     
@@ -490,6 +538,17 @@ font-family: 'Mukta', sans-serif;
     background-size: cover;
 
 }
+.mob_highlight{
+     margin-top: 80px;
+    width: 100%;
+    height: 600px;
+    border-radius: 20px;
+    background-image: linear-gradient(to bottom, rgba(162, 89, 255, 0), rgba(162, 89, 255, 1)),
+     url(./img/nft_info.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
 
 
 .highlight_emoji{
@@ -498,6 +557,11 @@ margin-left: 100px;
 
     
 }
+.highlight_emoji_mob{
+    width: 80%;
+    margin-top: 200px;
+   
+}
 .highlight_emoji span{
     color: white;
     font-size: 16px;
@@ -505,11 +569,25 @@ margin-left: 100px;
     font-weight: 400;
 }
 
+.highlight_emoji_mob span{
+    color: white;
+    font-size: 16px;
+    line-height: 22px;
+    font-weight: 400;
+
+}
+
 
 .highlight_emoji img{
     width: 20px;
     height: 20px;
     border-radius: 10px;
+}
+.highlight_emoji_mob img{
+    width: 20px;
+    height: 20px;
+    border-radius: 10px;
+
 }
 
 .highlight_emoji button{
@@ -521,6 +599,19 @@ margin-left: 100px;
     color: #A259FF;
     
 }
+.highlight_emoji_mob button{
+    width: 300px;
+    height: 50px;
+    border: none;
+    border-radius: 20px;
+    margin-top: 20px;
+    color: #A259FF;
+    
+
+
+
+}
+
 .highlight_name{
     background-color: #2B2B2B;
     border-radius: 20px;
@@ -538,8 +629,16 @@ margin-left: 100px;
     font-weight: 600;
     font-family:'Fira Sans', sans-serif;
     
-   
-    
+}
+.highlight_emoji_mob h2{
+    margin-top: 20px;
+
+    color: white;
+    width: 100%;
+    font-size: 46px;
+    font-weight: 600;
+    font-family:'Fira Sans', sans-serif;
+
 }
 .time_box{
     width: 100%;
@@ -549,9 +648,7 @@ margin-left: 100px;
     
 
 }
-.time {
-
-  
+.time {  
     background-color: rgba(111, 79, 129, 0.5);
     max-width: 300px;
     height: 130px;
@@ -562,6 +659,13 @@ margin-left: 100px;
     
 }
 
+.time_mob{
+    background-color: rgba(111, 79, 129, 0.5);
+    max-width: 300px;
+    height: 130px;
+    border-radius: 20px;
+
+}
 
 .time_box h5{
     color: white;
@@ -589,6 +693,7 @@ margin-left: 100px;
 }
 
 .mushroom_cont_mob{
+    position: relative;
     border-radius: 20px;
     width: 100%;
     height: 800px;
@@ -1061,7 +1166,7 @@ color: white;
    justify-content: center;
    align-items: center;
 
-   margin-top: 80px;
+   margin-top: 50px;
 
 }
 
@@ -1188,9 +1293,12 @@ color: white;
     height: 0.5px;
     background-color:#585353;
 
-    margin-top: 60px;
+   
 }
 
+.closed{
+    display: none;
+}
 
 /* For Nft pages!!!!! */
 
@@ -1400,7 +1508,7 @@ color: white;
     .mushroom_mob{
         display: none;
     }
-    .mushroom_cont_mob{
+    .mob_highlight{
         display: none;
     }
     .cosmo_mob_btn_footer{
@@ -1410,6 +1518,11 @@ color: white;
     .btn_nft_mob button{
         display: none;
     }
+    .rank_mob{
+        display: none;
+    }
+   
+
     /* For Artist-pg page!!!!!!!!!!!! */ 
 
 }
@@ -1418,16 +1531,21 @@ color: white;
    
            .nft_box_img{
                 width: 100%;
-                height: 100px;
+                height: 80px;
                 
             }
             .nft_img{
-                height: 300px;
+                height: 250px;
             }
     
             .box_txt_1{
                 width: 100%;
-                height: 100px;
+                height: 80px;
+            }
+            .box_txt_2{
+
+                width: 100%;
+                height: 80px;
             }
             
             .trending h1{
@@ -1439,6 +1557,10 @@ color: white;
                 height: 330px;
                 
             }
+            .highlight{
+                display: none;
+            }
+    
             .img_box h5{
                 gap: 10px;
             }
@@ -1455,10 +1577,8 @@ color: white;
             .bluer img{
                 height: 200px;
             }
-            .highlight{
-                display: none;
-                    
-            }
+
+            
 
             .works_box{
                 height: 340px;
@@ -1483,7 +1603,11 @@ color: white;
             display: none;
         }
         .footer_box{
-            height: 450px;
+            height: 430px;
+        }
+        /* For marketplace pages!!!! */
+        .rank_web{
+            display: none;
         }
         
        /* Sign_up pages!!!!!!!!!!!!!!!!!!!!!!!!!! */
@@ -1493,12 +1617,6 @@ color: white;
             height: 560px;
         }
 
-        /* For Marketplace page!!!!!!!!!!!! */
-
-        .rank_web{
-            display: none;
-        }
-        
      /* For Nfts page!!!!!!!!!!!! */
         .btn_nft_web { 
             display: none;
@@ -1532,21 +1650,16 @@ color: white;
         }
     
 
-       
-   }
+    }  
+   
 
         
         @media(min-width: 992px){
-            .rank_mob{
-                display: none;
-
-            }
             /* for artist-pg page!!!! */
             .hidden_btn button{
                 display: none;
             }
 
-           
         }
 
  
@@ -1558,7 +1671,10 @@ color: white;
         }
         
 
-      
+        .highlight_emoji_mob{
+            margin-left: 20px;
+
+        }
         .nft_box_img{
             width: 100%;
             height: 180px;
@@ -1580,6 +1696,7 @@ color: white;
         .card_hidden{
             display: none;
         }
+        
 
         .appeared_card{
             width: 100%;
@@ -1673,9 +1790,6 @@ color: white;
         .signup_img{
             display: none;
         }
-
-
-
     
        /* For Collect a wallet pages!!!!!!!!!!! */
 
@@ -1743,6 +1857,8 @@ color: white;
         .hidden_box{
             display: none;
         }
+
+        
     }
 
 
@@ -1761,6 +1877,16 @@ color: white;
             width: 100%;
             height: 150px;
             
+        }
+ /* For mushroom!!! */
+        .time_mob{
+          width: 250px;
+        }
+        .watch{
+            margin-left: 0;
+        }
+        .mob_highlight button{
+            width: 250px;
         }
 
         .box_txt_1{
@@ -1835,6 +1961,11 @@ color: white;
 
 
 
+    }
+    .time_1{
+        width: 50%;
+        display: flex;
+        justify-content: center;
     }
     
     @media (max-width : 327px){
